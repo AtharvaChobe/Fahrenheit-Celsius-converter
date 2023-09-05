@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btn.css">
+</head>
+
+<body>
+
+    <form action="" onclick="convertTemp(); return false" >
+
+        <div>
+
+            <label>Enter the temperature</label>
+            <input type="number" name="" id="temp"> 
+        </div>
+        <div>            
+                <label for="">Convert To</label>
+                <select name="" id="select_temp">
+                    <option value="cel">Celcius</option>
+                    <option value="fah">Fahrenheit</option>
+                </select> 
+        </div>
+
+        <input type="submit" value="Convert" id="submit">
+
+        <span id="output"></span>
+
+    </form>
+    <img src="img/thermometer.png" alt="">
+
+    <script src="index.js"></script>
+</body>
+
+</html>
